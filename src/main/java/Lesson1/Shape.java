@@ -1,6 +1,7 @@
 package Lesson1;
 
 public abstract class Shape {
+    protected String name;
 
     public double getArea() {
         double area=0;
@@ -12,6 +13,8 @@ public abstract class Shape {
         return perimeter;
     }
     public void printFigure() {
+    }
 
+    public void printName() {
     }
 }

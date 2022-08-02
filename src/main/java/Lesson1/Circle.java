@@ -26,4 +26,9 @@ public class Circle extends Shape {
     public void printFigure() {
         System.out.println(" площа: "+getArea()+"; периметр: "+getPerimeter());
     }
+
+    @Override
+    public void printName() {
+        System.out.print("Коло");
+    }
 }
