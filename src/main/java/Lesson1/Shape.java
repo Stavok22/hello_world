@@ -1,20 +1,15 @@
 package Lesson1;
 
 public abstract class Shape {
-    protected String name;
+    protected String name=""; // Ім'я фігури
 
-    public double getArea() {
-        double area=0;
-        return area;
-    }
+    abstract void showName(); //вивести ім'я фігури
 
-    public double getPerimeter() {
-        double perimeter=0;
-        return perimeter;
-    }
-    public void printFigure() {
-    }
+    abstract double area(); // визначення площі
 
-    public void printName() {
+    //метод,який повертає назву фігури
+    String getName() {
+        return name;
+
     }
 }

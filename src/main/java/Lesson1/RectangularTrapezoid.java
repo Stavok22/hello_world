@@ -34,21 +34,18 @@ public class RectangularTrapezoid extends Shape {
         this.baseA = baseA;
         this.baseB = baseB;
         this.height = height;
+        name="прямокутна трапеція";
     }
 
-    public double getArea() {
+    public double area() {
         return ((baseA+baseB)/2)*height;
     }
-
-    public double getPerimeter() {
-        return baseA+baseB+height+Math.sqrt((height*height)+Math.pow(baseA-baseB,2));
-    }
-    public void printFigure() {
-        System.out.println(" площа: "+getArea()+"; периметр: "+getPerimeter());
+    void showName() {
+        System.out.println("Прямокутна трапеція");
     }
 
-    @Override
-    public void printName() {
-        System.out.print("Прямокутна трапеція");
-    }
+
+
+
+
 }

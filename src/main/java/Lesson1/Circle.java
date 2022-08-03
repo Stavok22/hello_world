@@ -12,23 +12,18 @@ public class Circle extends Shape {
     }
 
     public Circle(double r) {
+        name = "Коло";
         this.r = r;
     }
 
-    public double getArea() {
+    public double area() {
         return r*r*Math.PI;
     }
 
-    public double getPerimeter() {
-        return 2*r*Math.PI;
+    //перевизначення абстрактного методу ShowName()
+    void showName() {
+        System.out.println("Коло");
     }
 
-    public void printFigure() {
-        System.out.println(" площа: "+getArea()+"; периметр: "+getPerimeter());
-    }
 
-    @Override
-    public void printName() {
-        System.out.print("Коло");
-    }
 }

@@ -26,17 +26,12 @@ public class RightTriangle extends Shape{
         this.b = b;
     }
 
-    public  double getArea() {
+    public  double area() {
         return (a*b)/2;
     }
-    public double getPerimeter() {
-        return Math.sqrt((a*a)+(b*b)) + a + b;
+    void showName() {
+        System.out.println("Прямокутний трикутник");
     }
-    public void printFigure() {
-        System.out.println(" площа: "+getArea()+"; периметр: "+getPerimeter());
-    }
-    @Override
-    public void printName() {
-        System.out.print("Прямокутний трикутник");
-    }
+
+
 }

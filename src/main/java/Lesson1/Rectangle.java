@@ -6,6 +6,7 @@ public class Rectangle extends Shape {
     private double b;
 
     public Rectangle(double a, double b) {
+        name="Прямокутник";
         this.a = a;
         this.b = b;
     }
@@ -26,18 +27,10 @@ public class Rectangle extends Shape {
         this.b = b;
     }
 
-    public  double getArea() {
+    public  double area() {
         return a*b;
     }
-    public double getPerimeter() {
-        return a+a+b+b;
-    }
-    public void printFigure() {
-        System.out.println(" площа: "+getArea()+"; периметр: "+getPerimeter());
-    }
-
-    @Override
-    public void printName() {
-        System.out.print("Прямокутник");
+    void showName() {
+        System.out.println("Прямокутник");
     }
 }

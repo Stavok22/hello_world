@@ -4,14 +4,12 @@ public class Square extends Shape {
     private double a;
 
     public Square(double a) {
+        name="Квадрат";
         this.a = a;
     }
 
-    public double getArea() {
+    public double area() {
         return a*a;
-    }
-    public double getPerimeter() {
-        return 4*a;
     }
 
     public double getA() {
@@ -21,12 +19,9 @@ public class Square extends Shape {
     public void setA(double a) {
         this.a = a;
     }
+    void showName() {
+        System.out.println("Квадрат");
+    }
 
-    public void printFigure() {
-        System.out.println(" площа: "+getArea()+"; периметр: "+getPerimeter());
-    }
-    @Override
-    public void printName() {
-        System.out.print("Квадрат");
-    }
+
 }
