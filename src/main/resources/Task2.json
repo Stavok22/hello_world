@@ -1,0 +1,22 @@
+[
+  {
+    "name": "alice",
+    "age": 21,
+    "city": "kyiv"
+  },
+  {
+    "name": "ryan",
+    "age": 30,
+    "city": "lviv"
+  },
+  {
+    "name": "max",
+    "age": 22,
+    "city": "kharkiv"
+  },
+  {
+    "name": "jon",
+    "age": 29,
+    "city": "rivne"
+  }
+]
