@@ -1,5 +1,5 @@
-name age
-alice 21
-ryan 30
-max 22
-jon 29
+name age city
+alice 21 kyiv
+ryan 30 lviv
+max 22 kharkiv
+jon 29 rivne
